@@ -9,6 +9,6 @@ public class BEE1015 {
         double x2 = scanner.nextDouble();
         double y2 = scanner.nextDouble();
         double distance = Math.sqrt((Math.pow((x2 - x1), 2)) + (Math.pow((y2 - y1), 2)));
-        System.out.printf("%.4f%n", distance);
+        System.out.println(String.format("%.4f%n", distance));
     }
 }
