@@ -2,7 +2,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class BEE1013 {
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
         int A = scanner.nextInt();
         int B = scanner.nextInt();
